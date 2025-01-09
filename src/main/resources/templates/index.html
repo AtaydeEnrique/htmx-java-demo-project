@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HTMX Course</title>
+  </head>
+  <body class="bg-black"></body>
+    <div class="flex flex-col items-center justify-center min-h-screen">
+      <h1 class="text-white text-4xl font-bold mb-4">HTMX DEMO PAGE</h1>
+      <h2 class="text-white text-2xl mb-8">Using Java Springboot and Thymeleaf</h2>
+      <div class="text-6xl font-bold">
+        <span class="text-emerald-500">&lt;</span>
+        <span class="text-white">HTM</span>
+        <span class="text-blue-500 animate-pulse glow">X</span>
+        <span class="text-white">/</span>
+        <span class="text-emerald-500">&gt;</span>
+      </div>
+      <div class="mt-8">
+        <h3 class="text-white text-xl mb-4">Available Routes:</h3>
+        <ul class="text-white"></ul>
+            <li><a href="/" class="text-white underline">Home</a></li>
+            <li><a href="/request" class="text-white underline">Request</a></li>
+            <li><a href="/temperature" class="text-white underline">Temperature</a></li>
+            <li><a href="/polling" class="text-white underline">Polling</a></li>
+            <li><a href="/searching" class="text-white underline">Searching</a></li>
+            <li><a href="/validating" class="text-white underline">Validating</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
